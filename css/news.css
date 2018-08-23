@@ -132,8 +132,8 @@ header {
     padding: 80px 0; } }
 /*****************ここからニュース*********************/
 #contents {
-  padding-top: 35px;
-  padding-bottom: 70px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 #main h2 {
   color: #42b9d0;
@@ -153,6 +153,10 @@ header {
 
 /*PC表示*/
 @media (min-width: 550px) {
+  #contents {
+    padding-top: 35px;
+    padding-bottom: 70px; }
+
   #main h2 {
     font-size: 20px;
     padding-bottom: 20px; }

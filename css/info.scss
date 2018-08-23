@@ -228,8 +228,8 @@ header{
 
 #contents{
   
-  padding-top: 35px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   
 }
 
@@ -240,6 +240,8 @@ header{
   font-size: 15px;
   font-weight: bold;
   padding-bottom: 15px;
+  margin: 0;
+  letter-spacing: 0.2rem;
   
 }
 
@@ -258,6 +260,13 @@ header{
 /*PC表示*/
 
 @media (min-width: 550px){
+  
+  #contents{
+    
+    padding-top: 35px;
+    padding-bottom: 70px;
+    
+  }
   
   #main h2{
   
